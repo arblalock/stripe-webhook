@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/arblalock/stripe-webhook#readme",
   "devDependencies": {
-    "@google-cloud/functions-framework": "^1.2.1"
+    "@google-cloud/functions-framework": "^1.2.1",
+    "stripe": "^7.8.0"
   }
 }
