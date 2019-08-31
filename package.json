@@ -1,0 +1,22 @@
+{
+  "name": "tabula",
+  "version": "1.0.0",
+  "description": "A stripe payment webhook for my friend's cooking site",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=tabulaInstallments"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arblalock/stripe-webhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arblalock/stripe-webhook/issues"
+  },
+  "homepage": "https://github.com/arblalock/stripe-webhook#readme",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.2.1"
+  }
+}
