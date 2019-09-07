@@ -19,7 +19,7 @@ exports.tabulaInstallments = async(request, response) => {
   let event;
 
   try {
-    event = stripe.webhooks.constructEvent(request.body, sig, endpointSecret );
+    event = stripe.webhooks.constructEvent(request.rawBody, sig, endpointSecret );
   }
   catch (err) {
     console.log(err)
